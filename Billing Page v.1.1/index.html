@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Page</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="red-chart"></div>
+        <div class="page">
+            <div class="section">
+                <div class="user">
+                    <img class="user-img" src="/assets/img/user-img.svg" alt="user-img">
+                    <div class="user-info">
+                        <p class="user-name">Ildiko Gaspar</p>
+                        <p class="user-id">@igaspar</p>
+                    </div>
+                </div>
+                <nav class="navigation">
+                    <ul class="menu">
+                        <li ><a href="#"><img src="/assets/img/general.svg" alt="">General</a></li>
+                        <li><a href="#"><img src="/assets/img/passwordf.svg" alt="">Password</a></li>
+                        <li><a href="#"><img src="assets/img/letter.svg" alt="">Invitations</a></li>
+                        <li class="active"><a href="#" class="active"><img src="assets/img/billing.svg" alt="">Billing</a></li>
+                        <li><a href="#"><img src="assets/img/apps.svg" alt="">Apps</a></li>
+                </nav>
+                <button class="log-out"><img src="assets/img/log-out.svg" alt="">Log out</button>
+            </div>
+            <div class="main-page">
+                <div class="main-header">
+                    <h1>Billing</h1>
+                    <h3>Order History</h3>
+                    <h4>Manage billing informations and view receips</h4>
+                </div>
+                <div class="main-section">
+                    <table>
+                        <tr class="table-header">
+                            <th>Date</th>
+                            <th id="type">Type</th>
+                            <th>Receipt</th>
+                        </tr>
+                        <tr>
+                            <td>Oct.21,2021</td>
+                            <td>Pro Annual</td>
+                            <td><button id="download">Download</button></td>
+                        </tr>
+                        <tr>
+                            <td>Aug.21,2021</td>
+                            <td>Pro Portfolio</td>
+                            <td><button id="download">Download</button></td>
+                        </tr>
+                        <tr>
+                            <td>July.21,2021</td>
+                            <td>Sponsored Post</td>
+                            <td><button id="download">Download</button></td>
+                        </tr>
+                        <tr>
+                            <td>Jun.21,2021</td>
+                            <td>Sponsored Post</td>
+                            <td><button id="download">Download</button></td>
+                        </tr>
+                    </table>
+                    <a href="#">Load more</a>
+                </div>
+                <div class="main-footer">
+                    <h3>Payment Method</h3>
+                    <h4>Manage billing information and view receips</h4>
+                    <div class="card-selection">
+                        <div class="card">
+                            <img src="/assets/img/visa.svg" alt="visa">
+                            <p>Visa ending in 2255</p>
+                        </div>
+                        <button class="remove">Remove</button>
+                    </div>
+                </div>
+            </div>
+            <div class="red-card">
+                <p>Your plan</p>
+                <p>Pro Annual</p>
+                <p>Renews on Nov.2021</p>
+                <button>Cancel subscription</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
